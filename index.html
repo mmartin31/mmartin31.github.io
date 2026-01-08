@@ -28,21 +28,25 @@
 </nav>
 
   <script>
-  // Simple toggle for mobile & desktop
-  const btn = document.getElementById("projectsBtn");
-  const dropdown = document.getElementById("projectsDropdown");
+    // Wait for the DOM to load
+    document.addEventListener("DOMContentLoaded", () => {
+      const btn = document.getElementById("projectsBtn");
+      const dropdown = document.getElementById("projectsDropdown");
 
-  btn.addEventListener("click", () => {
-    dropdown.classList.toggle("hidden");
-  });
+      // Toggle dropdown visibility
+      btn.addEventListener("click", (e) => {
+        e.stopPropagation(); // Prevent window click listener from immediately closing
+        dropdown.classList.toggle("hidden");
+      });
 
-  // Optional: click outside to close
-  window.addEventListener("click", function(e) {
-    if (!btn.contains(e.target) && !dropdown.contains(e.target)) {
-      dropdown.classList.add("hidden");
-    }
-  });
-</script>
+      // Close dropdown when clicking outside
+      window.addEventListener("click", (e) => {
+        if (!dropdown.contains(e.target) && !btn.contains(e.target)) {
+          dropdown.classList.add("hidden");
+        }
+      });
+    });
+  </script>
 
 
   <!-- Hero Section -->
