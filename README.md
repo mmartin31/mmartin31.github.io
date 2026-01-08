@@ -1,29 +1,34 @@
-Mason Martin – Portfolio
+# Mason Martin – Portfolio
 
-Welcome to my software engineering portfolio! Hosted on GitHub Pages, it showcases my projects with interactive demos and detailed pages.
+Welcome to my software engineering portfolio! Hosted on GitHub Pages, it showcases my projects with interactive demos and dedicated pages.  
 
-🌐 View Portfolio
+🌐 [View Portfolio](https://mmartin31.github.io/)  
 
-About Me
+---
 
-Graduate student at Clemson University passionate about building Python applications, web apps, and games.
+## About Me
 
-Skills: Python, Django, Kivy, Pygame, JavaScript, HTML, CSS, Tailwind CSS, OOP
+Graduate student at **Clemson University**, passionate about building Python applications, web apps, and games.  
 
-Projects
+**Skills:**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) 
+![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white) 
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black) 
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white) 
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white) 
+![Pygame](https://img.shields.io/badge/Pygame-000000?style=flat&logo=pygame&logoColor=white)  
 
-BreatheWell – Mobile stress management app
+---
 
-The Cinematic – Full-stack movie review web app
+## Projects
 
-New Rally-X – Arcade game recreation
+- **BreatheWell** – Mobile stress management app | [View](https://mmartin31.github.io/breathewell.html)  
+- **The Cinematic** – Full-stack movie review web app | [View](https://mmartin31.github.io/cinematic.html)  
+- **New Rally-X** – Arcade game recreation | [View](https://mmartin31.github.io/rallyx.html)  
+- **Bathtime Bash** – Interactive game | [View](https://mmartin31.github.io/bathtimebash.html)  
 
-Bathtime Bash – Tower Defense game
+---
 
-Repo Structure
-/assets           # Images & media
-index.html        # Home page
-breathewell.html  # Project page
-cinematic.html
-rallyx.html
-bathtimebash.html
+## Repository Structure
+
