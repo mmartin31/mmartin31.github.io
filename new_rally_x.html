@@ -8,18 +8,28 @@
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans">
 
-  <!-- Navigation -->
-  <nav class="bg-green-300 text-white py-4 px-6 flex justify-between">
-    <div class="font-bold text-xl">Mason Martin</div>
-    <ul class="flex space-x-6">
-      <li><a href="index.html" class="hover:underline">Home</a></li>
-      <li><a href="projects.html" class="hover:underline">Projects</a></li>
-      <li><a href="contact.html" class="hover:underline">Contact</a></li>
-    </ul>
-  </nav>
+ <!-- Navigation -->
+<nav class="bg-gray-800 text-white py-4 px-6 flex justify-between items-center relative">
+  <div class="font-bold text-xl">Mason Martin</div>
+  <ul class="flex space-x-6 items-center">
+    <li><a href="index.html" class="hover:underline">Home</a></li>
+
+    <!-- Dropdown Menu -->
+    <li class="relative group">
+      <button class="hover:underline focus:outline-none">Projects ▼</button>
+      <ul class="absolute hidden group-hover:block bg-gray-700 mt-2 rounded shadow-lg">
+        <li><a href="breathewell.html" class="block px-4 py-2 hover:bg-gray-600">BreatheWell</a></li>
+        <li><a href="cinematic.html" class="block px-4 py-2 hover:bg-gray-600">The Cinematic</a></li>
+        <li><a href="rallyx.html" class="block px-4 py-2 hover:bg-gray-600">New Rally-X</a></li>
+        <li><a href="bathtimebash.html" class="block px-4 py-2 hover:bg-gray-600">Bathtime Bash</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
 
   <!-- Project Hero -->
-  <section class="bg-blue-600 text-white py-24 text-center">
+  <section class="bg-green-300 text-white py-24 text-center">
     <h1 class="text-5xl font-bold mb-4">New Rally-X</h1>
     <p class="text-xl mb-6">TECH_STACK_HERE</p>
     <p class="text-lg">Short one-sentence description of the project</p>
